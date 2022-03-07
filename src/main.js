@@ -1,5 +1,17 @@
-import Vue from 'vue'
-import App from './App.vue'
+import Vue from 'vue';
+import App from './App.vue';
+import 'bootstrap'; 
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { BootstrapVue, IconsPlugin } from 'bootstrap-vue';
+import 'bootstrap-vue/dist/bootstrap-vue.css';
+import '@fortawesome/fontawesome-free/css/all.css';
+import '@fortawesome/fontawesome-free/js/all.js';
+import '../src/assets/customstylesheet.css';
+
+
+//initialize Bootstrap Icons
+Vue.use(BootstrapVue)
+Vue.use(IconsPlugin)
 
 Vue.config.productionTip = false
 

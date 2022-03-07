@@ -1,0 +1,52 @@
+[
+  {
+    "cid": 1,
+    "courseTitle": "Course 1",
+    "facultyName": "Prof A",
+    "start_date": 1646713800,
+    "end_date": 1654662600,
+    "course_durations": "3 months",
+    "courseType": "Pre Registration",
+    "courseCategory": ["all", "computer"]
+  },
+  {
+    "cid": 2,
+    "courseTitle": "Course 2",
+    "facultyName": "Prof B",
+    "start_date": 1646713800,
+    "end_date": 1651984200,
+    "course_durations": "2 months",
+    "courseType": "Pre Registration",
+    "courseCategory": ["all", "engineering"]
+  },
+  {
+    "cid": 3,
+    "courseTitle": "Course 3",
+    "facultyName": "Prof C",
+    "start_date": 1646713800,
+    "end_date": 1649392200,
+    "course_durations": "1 month",
+    "courseType": "Pre Registration",
+    "courseCategory": ["all", "mathematics"]
+  },
+  {
+    "cid": 4,
+    "courseTitle": "Course 4",
+    "facultyName": "Prof B",
+    "start_date": 1646713800,
+    "end_date": 1669392200,
+    "course_durations": "4 month",
+    "courseType": "Pre Registration",
+    "courseCategory": ["all", "computer", "engineering"]
+  },
+  {
+    "cid": 5,
+    "courseTitle": "Course 5",
+    "facultyName": "Prof A",
+    "start_date": 1646713800,
+    "end_date": 1654392200,
+    "course_durations": "3 month",
+    "courseType": "Pre Registration",
+    "courseCategory": ["all", "mathematics", "computer"]
+  }
+]
