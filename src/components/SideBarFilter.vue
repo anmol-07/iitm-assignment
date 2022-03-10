@@ -2,7 +2,7 @@
   <div class="filter-outer-container">
     <div class="search-box-container">
       <h6>Search For Keywords</h6>  
-      <input class="search-box" type="text" placeholder="Search..." name="courseSearch" />
+      <input @input="gettingInput" class="search-box" type="text" placeholder="Search..." name="courseSearch" />
     </div>
     <div class="course-category-outer">
       <h6>Category</h6>  
@@ -51,5 +51,10 @@ export default {
       ],
     };
   },
+  methods : {
+    gettingInput(event) {
+      this.$emit('changeInput', event.target.value);
+    }
+  }
 };
 </script>

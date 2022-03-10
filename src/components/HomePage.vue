@@ -2,7 +2,7 @@
   <div class="container custom-outer-container">
     <div class="row">
       <div class="col-3">
-          <side-bar-filter></side-bar-filter>
+          <side-bar-filter @changeInput="filterResultsByInput"></side-bar-filter>
       </div>
       <div class="col-9">
         <h6>5 courses open for registration</h6>
@@ -32,7 +32,13 @@ export default {
   data() {
     return {
       courseList: [],
+      filteredList: []
     };
   },
+  methods : {
+    filterResultsByInput(inputValue) {
+      console.log(inputValue);
+    }
+  }
 };
 </script>
