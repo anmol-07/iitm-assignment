@@ -8,7 +8,7 @@
       <h6>Category</h6>  
       <div>
         <label v-for="category in categoryOptions" :key="category.id">
-          <input
+          <input @change="gettingSlectedValue"
             type="radio"
             v-model="selectedCategory"
             :value="category.field"
@@ -54,6 +54,9 @@ export default {
   methods : {
     gettingInput(event) {
       this.$emit('changeInput', event.target.value);
+    },
+    gettingSlectedValue() {
+      this.$emit('changeOptions', this.selectedCategory);
     }
   }
 };
